@@ -1,0 +1,466 @@
+@import 'fonts'
+@import 'vars'
+
+::-webkit-input-placeholder
+  color: #999999
+  opacity: 1
+
+*:-moz-placeholder
+  color: #999999
+  opacity: 1
+
+*::-moz-placeholder
+  color: #999999
+  opacity: 1
+
+*:-ms-input-placeholder
+  color: #999999
+  opacity: 1
+
+* 
+  box-sizing: border-box
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  -ms-box-sizing: border-box
+  -o-box-sizing: border-box
+
+ul, ol
+  margin: 0
+  padding: 0
+  list-style: none
+
+img 
+  border-style: none
+
+h1, h2, h3, h4, h5, h6, p, figure, li
+  margin: 0
+
+html, body
+  height: 100%
+
+body 
+    margin: 0
+    min-width: 320px
+    font-family: "PFDinTextCondProMedium"
+    line-height: 1.3
+    font-size: $text-small
+    color: #000
+    background-color: #fff
+		
+.main-section
+	@extend .custom-section
+	
+.section-1
+	background-color: $yellow
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	-webkit-justify-content: center
+	-moz-justify-content: center
+	-ms-justify-content: center
+	-o-justify-content: center
+	justify-content: center
+	-ms-align-items: center
+	align-items: center
+
+.start-logo_subheading
+	@extend .custom-text
+	position: absolute
+	bottom: 70px
+	left: 50%
+	max-width: 450px
+	display: block
+	text-align: center
+	-webkit-transform: translateX(-50%)
+	-ms-transform: translateX(-50%)
+	-o-transform: translateX(-50%)
+	transform: translateX(-50%)
+		
+.section-2
+	background-color: #dfdfdf
+	background-image: url('../img/bg-section-2.jpg')
+
+.text-wrap
+	@extend .custom-text
+
+.section-3
+	background-color: #282727
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	-webkit-justify-content: center
+	-moz-justify-content: center
+	-ms-justify-content: center
+	-o-justify-content: center
+	justify-content: center
+	-ms-align-items: center
+	align-items: center
+	-webkit-flex-direction: column
+	-moz-flex-direction: column
+	-ms-flex-direction: column
+	-o-flex-direction: column
+	flex-direction: column
+	p
+		max-width: 950px
+		display: block
+		text-align: center
+		margin-bottom: 20px
+		@extend .small
+		color: $yellow
+		&:first-child
+			@extend .custom-text
+	
+.section-4
+	text-align: center
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	-webkit-justify-content: space-around
+	-moz-justify-content: space-around
+	-ms-justify-content: space-around
+	-o-justify-content: space-around
+	justify-content: space-around
+	-webkit-flex-direction: column
+	-moz-flex-direction: column
+	-ms-flex-direction: column
+	-o-flex-direction: column
+	flex-direction: column
+	-ms-align-items: center
+	align-items: center
+	p
+		@extend .custom-text
+		max-width: 1450px
+		margin: 0 auto
+	img
+		display: inline-block
+
+.section-5
+	background-color: #282826
+	p
+		@extend .custom-text
+		color: $yellow
+		margin-bottom: 60px
+
+.video-cover
+	max-width: 1185px
+	width: 100%
+	margin: 0 auto
+	border-radius: 20px
+	overflow: hidden
+	position: relative
+
+.video-wrapper
+	position: relative
+	padding-bottom: 56.25%
+	padding-top: 25px
+	height: 0
+	iframe
+		border: none
+		position: absolute
+		top: 0
+		left: 0
+		width: 100%
+		height: 100%
+ 
+.video-overlay
+	@extend .transition
+	position: absolute
+	display: block
+	z-index: 2
+	left: 0
+	right: 0
+	top: 0
+	bottom: 0
+	background-image: url('../img/video-sec-5.jpg')
+	background-size: cover
+	width: 100%
+	height: 100%
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	-webkit-justify-content: center
+	-moz-justify-content: center
+	-ms-justify-content: center
+	-o-justify-content: center
+	justify-content: center
+	-ms-align-items: center
+	align-items: center
+	cursor: pointer
+	&:hover
+		button
+			opacity: 1
+	button
+		color: $yellow
+		opacity: 0.95
+		font-size: 10vw
+		border: none
+		background: none
+		cursor: pointer
+		outline: none
+		
+.section-6
+	background-color: $yellow
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	-webkit-justify-content: center
+	-moz-justify-content: center
+	-ms-justify-content: center
+	-o-justify-content: center
+	justify-content: center
+	-ms-align-items: center
+	align-items: center
+	-webkit-flex-direction: column
+	-moz-flex-direction: column
+	-ms-flex-direction: column
+	-o-flex-direction: column
+	flex-direction: column
+	p
+		@extend .custom-text
+		color: #000
+		margin-bottom: 60px
+
+.row-figure
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	-webkit-justify-content: space-around
+	-moz-justify-content: space-around
+	-ms-justify-content: space-around
+	-o-justify-content: space-around
+	justify-content: space-around
+	-webkit-flex-direction: row
+	-moz-flex-direction: row
+	-ms-flex-direction: row
+	-o-flex-direction: row
+	flex-direction: row
+	max-width: 1400px
+	figure
+		width: 31%
+		margin: 0 2%
+		display: inline-block
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		-ms-align-items: center
+		align-items: center
+		-webkit-flex-direction: column
+		-moz-flex-direction: column
+		-ms-flex-direction: column
+		-o-flex-direction: column
+		flex-direction: column
+		figcaption
+			@extend .custom-text
+			font-size: $text-small
+			line-height: 1.1
+		img
+			margin-bottom: 25px	
+
+.clients
+	max-width: 1300px
+	margin: 0 auto
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	-webkit-justify-content: space-between
+	-moz-justify-content: space-between
+	-ms-justify-content: space-between
+	-o-justify-content: space-between
+	justify-content: space-between
+	-ms-align-items: center
+	align-items: center
+	-webkit-flex-wrap: wrap
+	-moz-flex-wrap: wrap
+	-ms-flex-wrap: wrap
+	-o-flex-wrap: wrap
+	flex-wrap: wrap
+	text-align: center
+	a
+		display: inline-block
+		width: 20%
+		margin: 0 2% 50px
+	img
+		display: inline-block
+
+.section-7
+    min-height: 100vh
+    height: auto
+    
+.section-title
+    font-size: $text-main
+    line-height: 1.3
+    display: block
+    text-align: center
+    margin-bottom: 60px
+	
+.section-8
+	background-color: $black
+	color: $yellow
+
+.team-block
+	color: #fff
+	font-size: 25px
+	line-height: 1.3
+	max-width: 450px
+	display: inline-block
+
+.team-block_top
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	align-items: center
+	margin-bottom: 25px
+	img
+		margin-right: 25px
+.team-name
+	font-size: 40px	
+	
+.team-paragraph
+	color: $yellow
+	margin-bottom: 60px
+    
+.team-contact
+	a
+		display: block
+		color: $yellow
+		font-size: 25px
+		line-height: 1.3
+		margin-bottom: 10px
+		text-decoration: none
+
+.team-block_wrap
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	-webkit-justify-content: space-around
+	-moz-justify-content: space-around
+	-ms-justify-content: space-around
+	-o-justify-content: space-around
+	justify-content: space-around
+
+.best
+	background-color: $black
+
+.best-heading
+	display: block
+	text-align: center
+	font-size: $text-main
+	line-height: 1.3
+	font-weight: normal
+	&.yellow
+		color: $yellow
+	&.white
+		color: #fff
+	&.subheading
+		font-size: $text-small
+
+.best-box
+	width: 45%
+	a
+		color: $yellow
+		
+
+.best-title
+	margin-bottom: 75px
+
+.best-content
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	-webkit-justify-content: space-around
+	-moz-justify-content: space-around
+	-ms-justify-content: space-around
+	-o-justify-content: space-around
+	justify-content: space-around
+	p
+		color: $yellow
+ 
+.margin-1
+	margin-bottom: 25px
+
+.feedbacks
+	background-color: $yellow
+	text-align: center
+	img
+		display: inline-block
+
+.feedback-box_text
+	p
+		font-size: 16px
+		line-height: 1.3
+		color: #000
+		margin-bottom: 15px
+
+.feedback-author
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	-ms-align-items: center
+	align-items: center
+	img
+		margin-right: 15px
+	p
+		font-size: 16px
+		line-height: 1.3
+		color: #000
+
+.feedbacks-row
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	-webkit-justify-content: space-around
+	-moz-justify-content: space-around
+	-ms-justify-content: space-around
+	-o-justify-content: space-around
+	justify-content: space-around
+	-ms-align-items: flex-start
+	align-items: flex-start
+	
+
+.feedbacks-box
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	-webkit-justify-content: space-around
+	-moz-justify-content: space-around
+	-ms-justify-content: space-around
+	-o-justify-content: space-around
+	justify-content: space-around
+	-webkit-flex-direction: column
+	-moz-flex-direction: column
+	-ms-flex-direction: column
+	-o-flex-direction: column
+	flex-direction: column
+
+.feedbacks-box
+	width: 20%
+
+@import 'media'
