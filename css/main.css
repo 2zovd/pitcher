@@ -25,10 +25,15 @@
 
 .custom-section, .main-section {
   height: 100vh;
-  padding: 70px;
+  padding: 5vh 3vw;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+.custom-section img, .main-section img {
+  max-width: 100%;
+  height: auto;
 }
 
 ::-webkit-input-placeholder {
@@ -205,6 +210,27 @@ body {
 }
 
 .section-5 {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
   background-color: #282826;
 }
 
@@ -422,6 +448,27 @@ body {
 .section-7 {
   min-height: 100vh;
   height: auto;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
 }
 
 .section-title {
@@ -785,19 +832,107 @@ body {
 }
 
 /*==========  Desktop First  ==========*/
+.transition, .video-overlay {
+  -webkit-transition: all 0.15s all 0.1s;
+  -o-transition: all 0.15s all 0.1s;
+  transition: all 0.15s all 0.1s;
+}
+
+.custom-text, .start-logo_subheading, .text-wrap, .section-3 p:first-child, .section-4 p, .section-5 p, .section-6 p, .row-figure figure figcaption {
+  font-family: "PFDinTextCondProMedium";
+  font-size: 50px;
+  line-height: 1.3;
+  text-align: center;
+  display: block;
+}
+
+.small, .section-3 p {
+  font-size: 40px;
+}
+
+.custom-section, .main-section {
+  height: 100vh;
+  padding: 5vh 3vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.custom-section img, .main-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1400px) {
+  .section-1 img {
+    max-width: 30vw;
+    margin-bottom: 5vh;
+  }
+  .start-logo_subheading {
+    font-size: 0.8em;
+    width: 100%;
+    bottom: 5vh;
+  }
+  .custom-text, .start-logo_subheading, .text-wrap, .section-3 p:first-child, .section-4 p, .section-5 p, .section-6 p, .row-figure figure figcaption, .start-logo_subheading, .text-wrap, .section-3 p:first-child, .section-4 p, .section-5 p, .section-6 p, .row-figure figure figcaption, .section-title {
+    font-size: 0.8em;
+  }
+  .small, .section-3 p, .section-3 p {
+    font-size: 0.6em;
+  }
+  .custom-section, .main-section, .main-section {
+    min-height: 100%;
+    height: 100%;
+  }
+  .section-title {
+    margin-bottom: 25px;
+  }
+  .clients {
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
-  /**/
+  .start-logo_subheading {
+    font-size: 0.5em;
+    width: 100%;
+    bottom: 5vh;
+  }
+  .custom-text, .start-logo_subheading, .text-wrap, .section-3 p:first-child, .section-4 p, .section-5 p, .section-6 p, .row-figure figure figcaption, .start-logo_subheading, .text-wrap, .section-3 p:first-child, .section-4 p, .section-5 p, .section-6 p, .row-figure figure figcaption, .section-title {
+    font-size: 0.5em;
+  }
+  .small, .section-3 p, .section-3 p {
+    font-size: 0.4em;
+  }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
-  /**/
+  .clients a {
+    width: 12%;
+    margin: 0 1% 15px;
+  }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  /**/
+  .clients a {
+    width: 20%;
+  }
+  .row-figure figure img {
+    max-width: 80px;
+  }
+  .row-figure figure figcaption,
+  .team-name {
+    font-size: 0.4em;
+  }
 }
 
 /* Extra Small Devices, Phones */
