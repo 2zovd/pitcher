@@ -92,6 +92,10 @@ body {
   background-color: #fff;
 }
 
+.main-section img {
+  margin-bottom: 25px;
+}
+
 .section-1 {
   background-color: #fedc4b;
   display: -webkit-flex;
@@ -874,7 +878,7 @@ body {
     width: 100%;
     bottom: 5vh;
   }
-  .custom-text, .start-logo_subheading, .text-wrap, .section-3 p:first-child, .section-4 p, .section-5 p, .section-6 p, .row-figure figure figcaption, .start-logo_subheading, .text-wrap, .section-3 p:first-child, .section-4 p, .section-5 p, .section-6 p, .row-figure figure figcaption, .section-title, .best-heading, .team-name, .best-heading.subheading, .best-content p, .section-title, .contact p {
+  .custom-text, .start-logo_subheading, .text-wrap, .section-3 p:first-child, .section-4 p, .section-5 p, .section-6 p, .row-figure figure figcaption, .start-logo_subheading, .text-wrap, .section-3 p:first-child, .section-4 p, .section-5 p, .section-6 p, .row-figure figure figcaption, .section-title, .best-heading, .team-name, .best-heading.subheading, .best-content p, .section-title, .contact p, .section-subtitle, .how-box p {
     font-size: 1em;
   }
   .small, .section-3 p, .section-3 p {
@@ -908,7 +912,7 @@ body {
     width: 100%;
     bottom: 5vh;
   }
-  .custom-text, .start-logo_subheading, .text-wrap, .section-3 p:first-child, .section-4 p, .section-5 p, .section-6 p, .row-figure figure figcaption, .start-logo_subheading, .text-wrap, .section-3 p:first-child, .section-4 p, .section-5 p, .section-6 p, .row-figure figure figcaption, .section-title, .best-heading, .team-name, .best-heading.subheading, .best-content p, .section-title, .contact p {
+  .custom-text, .start-logo_subheading, .text-wrap, .section-3 p:first-child, .section-4 p, .section-5 p, .section-6 p, .row-figure figure figcaption, .start-logo_subheading, .text-wrap, .section-3 p:first-child, .section-4 p, .section-5 p, .section-6 p, .row-figure figure figcaption, .section-title, .best-heading, .team-name, .best-heading.subheading, .best-content p, .section-title, .contact p, .section-subtitle, .how-box p {
     font-size: 0.8em;
   }
   .small, .section-3 p, .section-3 p {
@@ -1014,11 +1018,51 @@ body {
     width: 40vw;
     max-width: 100%;
   }
+  .feedbacks-row {
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+  }
+  .feedbacks-box {
+    width: 100%;
+  }
+  .feedback-author {
+    -ms-align-items: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 15px 0;
+  }
+  .how-row {
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+  }
+  .how-box {
+    width: 100%;
+  }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
-  .custom-text, .start-logo_subheading, .text-wrap, .section-3 p:first-child, .section-4 p, .section-5 p, .section-6 p, .row-figure figure figcaption, .start-logo_subheading, .text-wrap, .section-3 p:first-child, .section-4 p, .section-5 p, .section-6 p, .row-figure figure figcaption, .section-title, .best-heading, .team-name, .best-heading.subheading, .best-content p, .section-title, .contact p {
+  .custom-text, .start-logo_subheading, .text-wrap, .section-3 p:first-child, .section-4 p, .section-5 p, .section-6 p, .row-figure figure figcaption, .start-logo_subheading, .text-wrap, .section-3 p:first-child, .section-4 p, .section-5 p, .section-6 p, .row-figure figure figcaption, .section-title, .best-heading, .team-name, .best-heading.subheading, .best-content p, .section-title, .contact p, .section-subtitle, .how-box p {
     font-size: 0.7em;
   }
   .small, .section-3 p, .section-3 p {
@@ -1056,6 +1100,12 @@ body {
   }
   .section-1 img {
     width: 60vw;
+  }
+  .custom-text, .start-logo_subheading, .text-wrap, .section-3 p:first-child, .section-4 p, .section-5 p, .section-6 p, .row-figure figure figcaption, .start-logo_subheading, .text-wrap, .section-3 p:first-child, .section-4 p, .section-5 p, .section-6 p, .row-figure figure figcaption, .section-title, .best-heading, .team-name, .best-heading.subheading, .best-content p, .section-title, .contact p, .section-subtitle, .how-box p {
+    font-size: 0.6em;
+  }
+  .small, .section-3 p, .section-3 p {
+    font-size: 0.45em;
   }
 }
 
