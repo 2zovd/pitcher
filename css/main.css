@@ -881,6 +881,9 @@ body {
   .custom-text, .start-logo_subheading, .text-wrap, .section-3 p:first-child, .section-4 p, .section-5 p, .section-6 p, .row-figure figure figcaption, .start-logo_subheading, .text-wrap, .section-3 p:first-child, .section-4 p, .section-5 p, .section-6 p, .row-figure figure figcaption, .section-title, .best-heading, .team-name, .best-heading.subheading, .best-content p, .section-title, .contact p, .section-subtitle, .how-box p {
     font-size: 1em;
   }
+  .how-box p {
+    font-size: 0.5em;
+  }
   .small, .section-3 p, .section-3 p {
     font-size: 0.6em;
   }
@@ -914,6 +917,9 @@ body {
   }
   .custom-text, .start-logo_subheading, .text-wrap, .section-3 p:first-child, .section-4 p, .section-5 p, .section-6 p, .row-figure figure figcaption, .start-logo_subheading, .text-wrap, .section-3 p:first-child, .section-4 p, .section-5 p, .section-6 p, .row-figure figure figcaption, .section-title, .best-heading, .team-name, .best-heading.subheading, .best-content p, .section-title, .contact p, .section-subtitle, .how-box p {
     font-size: 0.8em;
+  }
+  .how-box p {
+    font-size: 0.5em;
   }
   .small, .section-3 p, .section-3 p {
     font-size: 0.6em;
@@ -1065,6 +1071,9 @@ body {
   .custom-text, .start-logo_subheading, .text-wrap, .section-3 p:first-child, .section-4 p, .section-5 p, .section-6 p, .row-figure figure figcaption, .start-logo_subheading, .text-wrap, .section-3 p:first-child, .section-4 p, .section-5 p, .section-6 p, .row-figure figure figcaption, .section-title, .best-heading, .team-name, .best-heading.subheading, .best-content p, .section-title, .contact p, .section-subtitle, .how-box p {
     font-size: 0.7em;
   }
+  .how-box p {
+    font-size: 0.5em;
+  }
   .small, .section-3 p, .section-3 p {
     font-size: 0.5em;
   }
@@ -1103,6 +1112,9 @@ body {
   }
   .custom-text, .start-logo_subheading, .text-wrap, .section-3 p:first-child, .section-4 p, .section-5 p, .section-6 p, .row-figure figure figcaption, .start-logo_subheading, .text-wrap, .section-3 p:first-child, .section-4 p, .section-5 p, .section-6 p, .row-figure figure figcaption, .section-title, .best-heading, .team-name, .best-heading.subheading, .best-content p, .section-title, .contact p, .section-subtitle, .how-box p {
     font-size: 0.6em;
+  }
+  .how-box p {
+    font-size: 0.5em;
   }
   .small, .section-3 p, .section-3 p {
     font-size: 0.45em;
