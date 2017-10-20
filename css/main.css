@@ -451,7 +451,7 @@ body {
 
 .section-7 {
   min-height: 100vh;
-  height: 100%;
+  height: auto;
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
