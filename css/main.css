@@ -874,7 +874,7 @@ body {
     width: 100%;
     bottom: 5vh;
   }
-  .custom-text, .start-logo_subheading, .text-wrap, .section-3 p:first-child, .section-4 p, .section-5 p, .section-6 p, .row-figure figure figcaption, .start-logo_subheading, .text-wrap, .section-3 p:first-child, .section-4 p, .section-5 p, .section-6 p, .row-figure figure figcaption, .section-title {
+  .custom-text, .start-logo_subheading, .text-wrap, .section-3 p:first-child, .section-4 p, .section-5 p, .section-6 p, .row-figure figure figcaption, .start-logo_subheading, .text-wrap, .section-3 p:first-child, .section-4 p, .section-5 p, .section-6 p, .row-figure figure figcaption, .section-title, .best-heading, .team-name, .best-heading.subheading, .best-content p, .section-title, .contact p {
     font-size: 0.8em;
   }
   .small, .section-3 p, .section-3 p {
@@ -896,6 +896,9 @@ body {
     -ms-flex-pack: center;
     justify-content: center;
   }
+  .best-heading.subheading {
+    margin-bottom: 25px;
+  }
 }
 
 /* Large Devices, Wide Screens */
@@ -905,11 +908,107 @@ body {
     width: 100%;
     bottom: 5vh;
   }
-  .custom-text, .start-logo_subheading, .text-wrap, .section-3 p:first-child, .section-4 p, .section-5 p, .section-6 p, .row-figure figure figcaption, .start-logo_subheading, .text-wrap, .section-3 p:first-child, .section-4 p, .section-5 p, .section-6 p, .row-figure figure figcaption, .section-title, .team-block {
+  .custom-text, .start-logo_subheading, .text-wrap, .section-3 p:first-child, .section-4 p, .section-5 p, .section-6 p, .row-figure figure figcaption, .start-logo_subheading, .text-wrap, .section-3 p:first-child, .section-4 p, .section-5 p, .section-6 p, .row-figure figure figcaption, .section-title, .team-block, .best-heading, .best-heading.subheading, .best-content p, .section-title, .contact p {
     font-size: 0.5em;
   }
   .small, .section-3 p, .section-3 p {
     font-size: 0.4em;
+  }
+  .team-paragraph {
+    margin-bottom: 15px;
+  }
+  .team-block_top {
+    text-align: center;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+  }
+  .best-content {
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-align-items: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    width: 100%;
+  }
+  .best-box {
+    width: 100%;
+  }
+  .best-box p {
+    text-align: center;
+  }
+  .best-box .video-cover {
+    margin-bottom: 25px;
+  }
+  .main-section {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-align-items: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+  }
+  .section-2.main-section {
+    -webkit-justify-content: flex-start;
+    -moz-justify-content: flex-start;
+    -ms-justify-content: flex-start;
+    -o-justify-content: flex-start;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .best-title {
+    margin-bottom: 25px;
+  }
+  .contact-info {
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+  }
+  .contacts-block p {
+    text-align: center;
   }
 }
 
@@ -918,6 +1017,16 @@ body {
   .clients a {
     width: 12%;
     margin: 0 1% 15px;
+  }
+  .team-paragraph,
+  .team-contact a {
+    font-size: 0.8em;
+  }
+  .team-block {
+    padding: 0 10px;
+  }
+  .team-block_top-left img {
+    margin: 0 auto;
   }
 }
 
@@ -929,8 +1038,7 @@ body {
   .row-figure figure img {
     max-width: 80px;
   }
-  .row-figure figure figcaption,
-  .team-name {
+  .row-figure figure figcaption {
     font-size: 0.4em;
   }
 }
