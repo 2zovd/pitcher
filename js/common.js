@@ -5,5 +5,7 @@ $('.video-overlay').click(function(ev) {
 
 
 $(document).ready(function() {
-	$('#fullpage').fullpage();
+	$('#fullpage').fullpage({
+		scrollOverflow: true
+	});
 });
