@@ -433,6 +433,9 @@ body
 .margin-1
 	margin-bottom: 25px
 
+.no-margin
+    margin: 0
+
 .feedbacks
 	text-align: center
 	img
@@ -440,10 +443,12 @@ body
 
 .feedback-box_text
 	p
-		font-size: 16px
-		line-height: 1.3
-		color: #000
-		margin-bottom: 15px
+        display: block
+        font-size: 16px
+        line-height: 1.3
+        color: #000
+        margin-bottom: 15px
+        text-align: left
 
 .feedback-author
 	display: -webkit-flex
@@ -454,11 +459,14 @@ body
 	-ms-align-items: center
 	align-items: center
 	img
-		margin-right: 15px
+        margin-right: 15px
+        margin-bottom: 0
 	p
-		font-size: 16px
-		line-height: 1.3
-		color: #000
+        display: block
+        text-align: left
+        font-size: 16px
+        line-height: 1.3
+        color: #000
 
 .feedbacks-row
 	display: -webkit-flex

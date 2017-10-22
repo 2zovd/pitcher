@@ -610,6 +610,10 @@ body {
   margin-bottom: 25px;
 }
 
+.no-margin {
+  margin: 0;
+}
+
 .feedbacks {
   text-align: center;
 }
@@ -619,10 +623,12 @@ body {
 }
 
 .feedback-box_text p {
+  display: block;
   font-size: 16px;
   line-height: 1.3;
   color: #000;
   margin-bottom: 15px;
+  text-align: left;
 }
 
 .feedback-author {
@@ -642,9 +648,12 @@ body {
 
 .feedback-author img {
   margin-right: 15px;
+  margin-bottom: 0;
 }
 
 .feedback-author p {
+  display: block;
+  text-align: left;
   font-size: 16px;
   line-height: 1.3;
   color: #000;
@@ -906,6 +915,12 @@ body {
   }
   .best-heading.subheading {
     margin-bottom: 25px;
+  }
+  .video-cover {
+    max-width: 600px;
+  }
+  .section-4 img {
+    max-width: 450px;
   }
 }
 
