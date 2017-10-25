@@ -1091,6 +1091,13 @@ body {
   height: auto;
 }
 
+@media only screen and (max-width: 1500px) {
+  .custom-section, .main-section, .main-section {
+    min-height: 100%;
+    height: 100%;
+  }
+}
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1400px) {
   .section-1 img {
@@ -1101,10 +1108,6 @@ body {
     font-size: 30px;
     width: 100%;
     bottom: 5vh;
-  }
-  .custom-section, .main-section, .main-section {
-    min-height: 100%;
-    height: 100%;
   }
   .section-title {
     margin-bottom: 25px;
