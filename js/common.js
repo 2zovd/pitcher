@@ -1,5 +1,5 @@
 
-$('.video-overlay').click(function(ev) {
+$('.hide-cover').click(function(ev) {
 	$(this).css('display', 'none')
 });
 

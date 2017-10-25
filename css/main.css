@@ -84,6 +84,7 @@ html, body {
 
 body {
   margin: 0;
+  padding: 0;
   min-width: 320px;
   font-family: "PFDinTextCondProMedium";
   line-height: 1.3;
@@ -324,12 +325,17 @@ body {
 }
 
 .video-cover {
+  display: block;
   max-width: 1185px;
   width: 100%;
   margin: 0 auto;
   border-radius: 20px;
   overflow: hidden;
   position: relative;
+}
+
+.video-cover.linked .video-overlay button {
+  display: none;
 }
 
 .video-wrapper {
@@ -646,14 +652,6 @@ body {
   -o-justify-content: space-around;
   -ms-flex-pack: distribute;
   justify-content: space-around;
-}
-
-.best .video-overlay {
-  pointer-events: none;
-}
-
-.best .video-overlay button {
-  display: none;
 }
 
 .best-heading {
@@ -1103,7 +1101,7 @@ body {
   }
   .custom-section, .main-section, .main-section {
     min-height: 100%;
-    height: 100%;
+    height: 100vh;
   }
   .section-title {
     margin-bottom: 25px;
