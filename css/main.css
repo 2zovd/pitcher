@@ -407,6 +407,8 @@ body {
 
 .row-figure figure img {
   margin-bottom: 25px;
+  width: auto;
+  max-height: 90px;
 }
 
 .clients {
