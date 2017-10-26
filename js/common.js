@@ -1,5 +1,5 @@
 
-$('.video-overlay').click(function(ev) {
+$('.hide-cover').click(function(ev) {
 	$(this).css('display', 'none')
 });
 
@@ -8,6 +8,6 @@ $(document).ready(function() {
 	$('#fullpage').fullpage({
 		scrollOverflow: true
 	});
-    
-    
 });
+
+
