@@ -4,10 +4,9 @@ $('.hide-cover').click(function(ev) {
 });
 
 
-$(document).ready(function() {
-	$('#fullpage').fullpage({
-		scrollOverflow: true
+	$(".activate-scroll").mPageScroll2id({
+		autoScrollSpeed: true,
+		scrollEasing: "easeInOutQuint"
 	});
-});
 
 

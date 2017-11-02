@@ -24,7 +24,7 @@
 }
 
 .custom-section, .main-section {
-  height: 100vh;
+  min-height: 100vh;
   padding: 5vh 3vw;
   background-repeat: no-repeat;
   background-size: cover;
@@ -95,6 +95,11 @@ body {
 
 .main-section img {
   margin-bottom: 25px;
+}
+
+.section,
+.section > section {
+  min-height: 100vh;
 }
 
 .section-1 {
@@ -1087,7 +1092,7 @@ body {
 }
 
 .custom-section, .main-section {
-  height: 100vh;
+  min-height: 100vh;
   padding: 5vh 3vw;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1223,6 +1228,7 @@ body {
     margin-bottom: 25px;
   }
   .main-section {
+	min-height: 100vh;
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
