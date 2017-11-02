@@ -24,7 +24,7 @@
 }
 
 .custom-section, .main-section {
-  min-height: 100vh;
+  height: 100vh;
   padding: 5vh 3vw;
   background-repeat: no-repeat;
   background-size: cover;
@@ -396,6 +396,7 @@ body {
   align-items: center;
   cursor: pointer;
   border-radius: 20px;
+  display: none;
   overflow: hidden;
 }
 
@@ -414,6 +415,16 @@ body {
   -webkit-transition: all .3s;
   -o-transition: all .3s;
   transition: all .3s;
+}
+
+.video-cover.linked .video-overlay {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .section-6 {
@@ -1092,7 +1103,7 @@ body {
 }
 
 .custom-section, .main-section {
-  min-height: 100vh;
+  height: 100vh;
   padding: 5vh 3vw;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1228,7 +1239,6 @@ body {
     margin-bottom: 25px;
   }
   .main-section {
-	min-height: 100vh;
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
